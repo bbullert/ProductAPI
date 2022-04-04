@@ -62,7 +62,7 @@ namespace ProductAPI.Services
 
             if (actual == null)
             {
-                throw new NotImplementedException();
+                throw new ProductNotExist();
             }
 
             actual.Description = updated.Description;
@@ -76,7 +76,7 @@ namespace ProductAPI.Services
 
             if (product == null)
             {
-                throw new NotImplementedException();
+                throw new ProductNotExist();
             }
 
             unitOfWork.Products.Remove(product);

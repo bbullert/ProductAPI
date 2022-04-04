@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProductAPI.Data.Configurations;
 using ProductAPI.Models;
 using System;
 using System.Collections.Generic;
@@ -16,5 +17,11 @@ namespace ProductAPI.Data
         }
 
         public DbSet<Product>? Products { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new ProductConfiguration());
+        }
     }
 }

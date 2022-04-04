@@ -1,0 +1,26 @@
+[
+  {
+    "id": "36f13eea-c97a-4908-b1bc-f0adf12ef581",
+    "name": "Product 1",
+    "number": 1,
+    "quantity": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "price": 300
+  },
+  {
+    "id": "a990b987-be21-4083-85bb-1dbfbcb87c2f",
+    "name": "Product 2",
+    "number": 2,
+    "quantity": 10,
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+    "price": 200
+  },
+  {
+    "id": "1a66dcc1-ca18-446e-954e-81cf12c04295",
+    "name": "Product 3",
+    "number": 3,
+    "quantity": 15,
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti",
+    "price": 100
+  }
+]
